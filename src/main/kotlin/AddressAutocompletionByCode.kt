@@ -26,7 +26,7 @@ fun main() {
         )
     )
 
-    Window(title = "Find address by Postal Zipcode", size = IntSize(1024, 768)) {
+    Window(title = "Find address by code", size = IntSize(1024, 768)) {
 
         MaterialTheme {
             var text by remember { mutableStateOf("") }
